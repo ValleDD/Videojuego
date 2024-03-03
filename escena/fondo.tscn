@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=3 uid="uid://y6i2utuwvnic"]
+
+[ext_resource type="Texture2D" uid="uid://dx7espelekh48" path="res://asset/Background/Green.png" id="1_i65d6"]
+
+[node name="fondo" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(426, 449)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(331, 450)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(235, 450)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(234, 545)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(235, 641)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D12" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(331, 640)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D13" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(616, 640)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D14" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(520, 639)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(330, 545)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D11" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(425, 545)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(521, 543)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D10" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(616, 544)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(520, 449)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(616, 449)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_i65d6")

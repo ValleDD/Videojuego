@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=3 uid="uid://dofpvpfpy6hds"]
+
+[ext_resource type="Texture2D" uid="uid://dl6m22672ep1t" path="res://asset/Menu/Buttons/Play.png" id="1_2uex8"]
+[ext_resource type="Script" path="res://script/menu.gd" id="1_n7bvo"]
+[ext_resource type="Texture2D" uid="uid://joihfv0iddsh" path="res://asset/fondo.jpg" id="2_5t2vp"]
+[ext_resource type="Texture2D" uid="uid://cfy2ueat6ehfc" path="res://asset/Menu/Buttons/Close.png" id="2_bujgw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kt4vb"]
+bg_color = Color(0.231373, 0.564706, 0.4, 1)
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n7bvo")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -58.0
+offset_top = -50.0
+offset_right = 4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.415686, 0.960784, 0.839216, 1)
+theme_override_font_sizes/font_size = 34
+text = "Start
+"
+icon = ExtResource("1_2uex8")
+flat = true
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.137255, 0.858824, 0.756863, 1)
+theme_override_font_sizes/font_size = 33
+theme_override_styles/focus = SubResource("StyleBoxFlat_kt4vb")
+text = "Quit
+"
+icon = ExtResource("2_bujgw")
+flat = true
+
+[node name="Fondo" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(577, 324)
+scale = Vector2(1.55435, 0.493119)
+texture = ExtResource("2_5t2vp")
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
